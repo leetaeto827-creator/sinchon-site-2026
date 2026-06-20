@@ -14,7 +14,20 @@ export default function Home() {
         />
       </a>
 
-      <h1 className="neonText">✨ 이달인 실장 010 8039 9532 ✨</h1>
+     <div style={{ textAlign: "center", margin: "30px 0" }}>
+  <div style={{ height: "2px", background: "linear-gradient(to right, transparent, gold, transparent)", margin: "15px auto", width: "80%" }} />
+
+ <h2 className="managerName">
+  ✨ 이달인 실장 ✨
+</h2>
+
+  <p style={{ fontSize: "38px", fontWeight: "bold", color: "white", letterSpacing: "3px" }}>
+    010-8039-9532
+  </p>
+
+  <div style={{ height: "2px", background: "linear-gradient(to right, transparent, gold, transparent)", margin: "15px auto", width: "80%" }} />
+</div>
+
 
       <a href="tel:010-8039-9532" className="imageButton">
         <Image
