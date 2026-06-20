@@ -61,13 +61,7 @@ export default function Home() {
           <p>예약, 이용 시간, 문의 방법, 위치 등 궁금한 점은 언제든 연락 주세요.</p>
         </section>
 
-        <section className="card hoverCard">
-          <h2>공주님들 상시모집😎</h2>
-          <p>
-            확실한 갯수 보장!!.
-            자세한 조건은 문자 또는 전화로 문의 주세요.
-          </p>
-        </section>
+        
       </div>
     </main>
   );
