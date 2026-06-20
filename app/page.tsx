@@ -51,7 +51,7 @@ export default function Home() {
         <section className="card hoverCard">
           <h2>셔츠룸 이란?</h2>
           <p>
-            편안한 분위기에서 즐기는 프리미엄 힐링 공간입니다.
+            인사가 포함되어 있는 프리미엄 힐링 공간입니다.
             부담 없이 문의하시면 친절하게 안내해드립니다.
           </p>
         </section>
