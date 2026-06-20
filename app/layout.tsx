@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "신촌 프리미엄 벗방 셔츠룸 | 이달인 실장",
-  description: "신촌 프리미엄 벗방 셔츠룸. 전화 문의 및 상담 가능.",
+  title: "마포 신촌 트럼프 프리미엄 셔츠룸 | 이달인 실장",
+  description:  "최고의 비주얼, 최저의 가격. 만인이 만족하는 힐링 서비스",
 
   verification: {
     google: "mHVDHFzN6MYAfdGj6gkj0BMizBgM3Y5TJjh7K-WOg-g",

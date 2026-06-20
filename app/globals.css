@@ -24,3 +24,130 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+  text-align: center;
+}
+
+.imageButton {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  margin-bottom: 28px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.35);
+  transition: 0.3s;
+}
+
+.imageButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.65),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
+
+.imageButton:hover::after {
+  animation: shine 0.9s ease;
+}
+
+.imageButton:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.8);
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.neonText {
+  font-size: 42px;
+  margin: 24px 0;
+  color: gold;
+  text-shadow:
+    0 0 10px gold,
+    0 0 20px gold,
+    0 0 40px rgba(255, 215, 0, 0.9);
+  animation: neonBlink 2.5s infinite;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.goldButton,
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  padding: 20px;
+  background: linear-gradient(135deg, #111, #222);
+  border: 1px solid rgba(255, 215, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 18px rgba(255, 215, 0, 0.25);
+  transition: 0.3s;
+}
+
+.goldButton {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+.goldButton:hover,
+.hoverCard:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+}
+
+.card h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #eee;
+}
+
+@keyframes shine {
+  from {
+    left: -150%;
+  }
+  to {
+    left: 150%;
+  }
+}
+
+@keyframes neonBlink {
+  0% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 0 20px gold,
+      0 0 40px gold,
+      0 0 70px gold;
+  }
+  100% {
+    opacity: 0.65;
+  }
+}
