@@ -6,7 +6,7 @@ export default function Home() {
     <main className="page">
       <a href="tel:010-8039-9532" className="imageButton">
         <Image
-          src="/trump - banner.png"
+          src="/idalin-banner.png"
           alt="트럼프 배너"
           width={900}
           height={500}
@@ -31,7 +31,7 @@ export default function Home() {
 
       <a href="tel:010-8039-9532" className="imageButton">
         <Image
-          src="/excuse - me - girl.png"
+          src="/new gir.png"
           alt="Excuse me 여자 배너"
           width={900}
           height={500}
@@ -49,9 +49,9 @@ export default function Home() {
         </a>
 
         <section className="card hoverCard">
-          <h2>셔츠룸 이란?</h2>
+          <h2>마포,신촌 룸 가라오케 란?</h2>
           <p>
-            인사가 포함되어 있는 프리미엄 힐링 공간입니다.
+            프라이빗한 서비스가 포함되어 있는 프리미엄 힐링 공간입니다.
             부담 없이 문의하시면 친절하게 안내해드립니다.
           </p>
         </section>

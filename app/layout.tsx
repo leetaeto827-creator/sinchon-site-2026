@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "마포 신촌 트럼프 프리미엄 셔츠룸 | 이달인 실장",
+  title: "마포 신촌 룸 가라오케 | 이달인 실장",
   description:  "최고의 비주얼, 최저의 가격. 만인이 만족하는 힐링 서비스",
 
   verification: {
